@@ -1,4 +1,14 @@
-﻿Public Class frmBurgerSpecials
+' ******************************************************
+' Project: Burger Specials GUI
+' Student: Carson Parker
+' Assignment: 4 - GUI Development
+' Class: [Your Class Name Here]
+' Date: [Insert Date Here]
+' Description: This program allows users to select a burger special
+'              (Prime Beef or Veggie), view an image of the selected meal,
+'              confirm their choice, and exit the application.
+' ******************************************************
+Public Class frmBurgerSpecials
 
     ' When Prime Beef button is clicked
     Private Sub btnPrimeBeef_Click(sender As Object, e As EventArgs) Handles btnPrimeBeef.Click
