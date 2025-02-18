@@ -22,32 +22,16 @@ Partial Class frmBurgerSpecials
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.pbxBurger1 = New System.Windows.Forms.PictureBox()
-        Me.pbxBurger2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnPrimeBeef = New System.Windows.Forms.Button()
         Me.btnSelectMeal = New System.Windows.Forms.Button()
         Me.btnVeggie = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        CType(Me.pbxBurger1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbxBurger2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pbxVeggie = New System.Windows.Forms.PictureBox()
+        Me.pbxPrimeBeef = New System.Windows.Forms.PictureBox()
+        CType(Me.pbxVeggie, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbxPrimeBeef, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'pbxBurger1
-        '
-        Me.pbxBurger1.Location = New System.Drawing.Point(95, 58)
-        Me.pbxBurger1.Name = "pbxBurger1"
-        Me.pbxBurger1.Size = New System.Drawing.Size(216, 232)
-        Me.pbxBurger1.TabIndex = 0
-        Me.pbxBurger1.TabStop = False
-        '
-        'pbxBurger2
-        '
-        Me.pbxBurger2.Location = New System.Drawing.Point(497, 58)
-        Me.pbxBurger2.Name = "pbxBurger2"
-        Me.pbxBurger2.Size = New System.Drawing.Size(229, 232)
-        Me.pbxBurger2.TabIndex = 1
-        Me.pbxBurger2.TabStop = False
         '
         'Label1
         '
@@ -95,6 +79,26 @@ Partial Class frmBurgerSpecials
         Me.btnExit.Text = "Exit Window"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'pbxVeggie
+        '
+        Me.pbxVeggie.Image = Global.Project3_4.My.Resources.Resources.veggie
+        Me.pbxVeggie.Location = New System.Drawing.Point(497, 58)
+        Me.pbxVeggie.Name = "pbxVeggie"
+        Me.pbxVeggie.Size = New System.Drawing.Size(229, 232)
+        Me.pbxVeggie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbxVeggie.TabIndex = 1
+        Me.pbxVeggie.TabStop = False
+        '
+        'pbxPrimeBeef
+        '
+        Me.pbxPrimeBeef.Image = Global.Project3_4.My.Resources.Resources.meat
+        Me.pbxPrimeBeef.Location = New System.Drawing.Point(95, 58)
+        Me.pbxPrimeBeef.Name = "pbxPrimeBeef"
+        Me.pbxPrimeBeef.Size = New System.Drawing.Size(216, 232)
+        Me.pbxPrimeBeef.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbxPrimeBeef.TabIndex = 0
+        Me.pbxPrimeBeef.TabStop = False
+        '
         'frmBurgerSpecials
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -105,19 +109,19 @@ Partial Class frmBurgerSpecials
         Me.Controls.Add(Me.btnSelectMeal)
         Me.Controls.Add(Me.btnPrimeBeef)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.pbxBurger2)
-        Me.Controls.Add(Me.pbxBurger1)
+        Me.Controls.Add(Me.pbxVeggie)
+        Me.Controls.Add(Me.pbxPrimeBeef)
         Me.Name = "frmBurgerSpecials"
         Me.Text = "BurgerSpecials"
-        CType(Me.pbxBurger1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbxBurger2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxVeggie, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxPrimeBeef, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents pbxBurger1 As PictureBox
-    Friend WithEvents pbxBurger2 As PictureBox
+    Friend WithEvents pbxPrimeBeef As PictureBox
+    Friend WithEvents pbxVeggie As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents btnPrimeBeef As Button
     Friend WithEvents btnSelectMeal As Button
