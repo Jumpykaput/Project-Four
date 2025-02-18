@@ -1,0 +1,12 @@
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3-4.vbproj.AssemblyReference.cache
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3_4.frmBurgerSpecials.resources
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3_4.Resources.resources
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3-4.vbproj.GenerateResource.cache
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3-4.vbproj.CoreCompileInputs.cache
+C:\Users\Carso\source\repos\Project3-4\Project3-4\bin\Debug\Project3-4.exe.config
+C:\Users\Carso\source\repos\Project3-4\Project3-4\bin\Debug\Project3-4.exe
+C:\Users\Carso\source\repos\Project3-4\Project3-4\bin\Debug\Project3-4.pdb
+C:\Users\Carso\source\repos\Project3-4\Project3-4\bin\Debug\Project3-4.xml
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3-4.exe
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3-4.xml
+C:\Users\Carso\source\repos\Project3-4\Project3-4\obj\Debug\Project3-4.pdb
